@@ -26,8 +26,8 @@ pyautogui.PAUSE = 1.5
 
 
 #pyautogui.write("site")
-os.startfile("https://helensjferreira-dev.github.io/automacao-python/")
-time.sleep(15)
+os.startfile("https://helensjferreira-dev.github.io/automacao-python/templates/index.html")
+time.sleep(20)
 #Usando foco na barra de url e tab
 #pyautogui.hotkey("ctrl","l")
 #pyautogui.press("tab")

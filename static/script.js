@@ -1,3 +1,4 @@
+// Formulário Products
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("form");
   const tabelaBody = document.getElementById("listProducts");
@@ -5,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener("submit", function (event) {
     event.preventDefault();
-    console.log("Formulário enviado!");
+    console.log("Formulário de produtos enviado!");
 
     const codigo = document.getElementById("codigo").value;
     const marca = document.getElementById("marca").value;
@@ -34,5 +35,21 @@ document.addEventListener("DOMContentLoaded", () => {
   resetButton.addEventListener("click", () => {
     tabelaBody.innerHTML = "";
     console.log("Tabela limpa!");
+  });
+});
+
+// Formulário Login
+document.addEventListener("DOMContentLoaded", () => {
+  const loginForm = document.getElementById("login");
+
+  loginForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+    console.log("Formulário de login enviado!");
+
+    // Redireciona para a página de produtos
+    window.location.href =
+      "https://helensjferreira-dev.github.io/automacao-python/templates/products.html";
+
+    loginForm.reset();
   });
 });
