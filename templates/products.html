@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="form-section">
+        <h2>Cadastro de Produtos</h2>
+        <form id="form">
+          <label for="codigo">Código:</label>
+          <input
+            type="text"
+            id="codigo"
+            name="codigo"
+            maxlength="10"
+            placeholder="Código do Produto"
+            required
+          />
+
+          <label for="marca">Marca:</label>
+          <input
+            type="text"
+            id="marca"
+            name="marca"
+            placeholder="Marca do Produto"
+            required
+          />
+
+          <label for="tipo">Tipo:</label>
+          <input
+            type="text"
+            id="tipo"
+            name="tipo"
+            placeholder="Tipo de Produto"
+            required
+          />
+
+          <label for="categoria">Categoria:</label>
+          <input
+            type="number"
+            id="categoria"
+            name="categoria"
+            placeholder="Categoria do Produto"
+            required
+          />
+
+          <label for="preco_unitario">Preço Unitário:</label>
+          <input
+            type="number"
+            step="0.01"
+            id="preco_unitario"
+            name="preco_unitario"
+            placeholder="Preço Unitário do Produto"
+            required
+          />
+
+          <label for="custo">Custo:</label>
+          <input
+            type="number"
+            step="0.01"
+            id="custo"
+            name="custo"
+            placeholder="Custo do Produto"
+            required
+          />
+
+          <label for="obs">Observações:</label>
+          <textarea
+            id="obs"
+            name="obs"
+            rows="3"
+            placeholder="Observações"
+          ></textarea>
+<div class="full-button">
+          <button type="submit">Salvar Produto</button>
+          </div>
+        </form>
+      </section>
+      <section class="table-section">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Marca</th>
+              <th>Tipo</th>
+              <th>Categoria</th>
+              <th>Preço Unitário</th>
+              <th>Custo</th>
+              <th>Observações</th>
+            </tr>
+          </thead>
+          <tbody id="listProducts"></tbody>
+        </table>
+      </section>
+      <div class="full-button">
+        <button type="button" id="resetTable">Limpar Tudo</button>
+      </div>
+    <div>
+    <script src="../static/script.js"></script>
+  </body>
+</html>
