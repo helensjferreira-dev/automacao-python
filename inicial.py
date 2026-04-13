@@ -27,7 +27,7 @@ pyautogui.PAUSE = 1.5
 
 #pyautogui.write("site")
 os.startfile("https://helensjferreira-dev.github.io/automacao-python/templates/index.html")
-time.sleep(20)
+time.sleep(25)
 #Usando foco na barra de url e tab
 #pyautogui.hotkey("ctrl","l")
 #pyautogui.press("tab")
@@ -53,6 +53,8 @@ print(df_products_final)
 
 for linha in df_products_final.index: #indice
     #Posicionar click primeiro campo
+    time.sleep(5)
+
     pyautogui.click(x=521, y=279)
     codigo = df_products_final.loc[linha, "codigo"]
     pyautogui.write(codigo)

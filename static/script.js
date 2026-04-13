@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const loginForm = document.getElementById("login");
 
   loginForm.addEventListener("submit", function (event) {
-    event.preventDefault();
+    evePONU645650 Fila  Camisetant.preventDefault();
     console.log("Formulário de login enviado!");
 
     // Redireciona para a página de produtos
