@@ -109,7 +109,7 @@ automacao-python/
 ### 🌐 Demonstração Online (GitHub Pages)
 
 Para facilitar a visualização da interface e a compreensão do fluxo de automação, a página inicial está disponível online:
-🔗[Acesse o Formulário de Teste aqui]("https://helensjferreira-dev.github.io/automacao-python/templates/index.html")
+🔗[Acesse o Formulário de Teste aqui](https://helensjferreira-dev.github.io/automacao-python/templates/index.html)
 
     Nota: Esta página foi desenvolvida exclusivamente para exemplificar o funcionamento da automação. Após o preenchimento simulado do login, você será redirecionado para a tela de cadastro de produtos (products.html), onde a tabela dinâmica exibe os itens processados.
 
@@ -238,7 +238,7 @@ automacao-python/
 ### 🌐 Online Demo (GitHub Pages)
 
 To facilitate the visualization of the interface and the understanding of the automation flow, the home page is available online:
-🔗[Access the Test Form here]("https://helensjferreira-dev.github.io/automacao-python/templates/index.html")
+🔗[Access the Test Form here](https://helensjferreira-dev.github.io/automacao-python/templates/index.html)
 
     Nota: This page was developed exclusively to demonstrate the automation functionality. After the simulated login, you will be redirected to the product registration screen (products.html), where the dynamic table displays the processed items.
 
